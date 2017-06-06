@@ -1,0 +1,9 @@
+<h1>Trunk Space</h1>
+@foreach (var item in @Model)
+{
+<ul>
+    <li><a href='/items/@item.GetId()'>@item.GetName()</a></li>
+</ul>
+}
+<a href="/items/new">Add new item</a>
+<a href="/">Home</a>

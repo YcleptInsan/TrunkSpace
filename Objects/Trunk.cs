@@ -12,8 +12,10 @@ namespace Trunk
 
    public Item (string name, int Id = 0)
    {
-    _id = Id;
-    _name = name;
+
+     _name = name;
+     _id = Id;
+
     }
 
     public override bool Equals(System.Object otherItem)
